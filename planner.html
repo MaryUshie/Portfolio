@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planner | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Ushie Mary Omali</h1>
+    <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Academic Planner</h2>
+    <p>Add your assignments, study tasks and deadlines below.</p>
+
+    <div class="task-input">
+      <input type="text" id="task-input" placeholder="Enter a task, e.g. Finish COS 106 project">
+      <button id="add-btn">Add Task</button>
+    </div>
+
+    <p id="task-count"></p>
+    <ul id="task-list"></ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ushie Mary Omali</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+</html>

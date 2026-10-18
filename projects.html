@@ -1,0 +1,62 @@
+form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin-top: 15px; }
+form label { font-weight: bold; }
+form input, form textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; font-family: inherit; }
+#form-feedback { font-weight: bold; min-height: 24px; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Ushie Mary Omali</h1>
+    <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>My Projects</h2>
+    <section class="project-grid">
+
+      <article class="card">
+        <img src="images/project1.png" alt="Screenshot of my portfolio homepage">
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive multi-page website built with HTML, CSS and JavaScript to showcase my profile, skills and projects.</p>
+        <a href="index.html">View Project</a>
+      </article>
+
+      <article class="card">
+        <img src="images/project2.png" alt="Screenshot of my planner page">
+        <h3>Academic Planner</h3>
+        <p>An interactive task planner where students can add, complete and delete tasks, built with JavaScript.</p>
+        <a href="planner.html">View Project</a>
+      </article>
+
+      <article class="card">
+        <img src="images/project3.png" alt="Screenshot of my data project">
+        <h3>Data Analysis Mini Project</h3>
+        <p>A simple data analysis exercise that explores a dataset and summarises the findings in charts.</p>
+        <a href="#">View Project</a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ushie Mary Omali</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
